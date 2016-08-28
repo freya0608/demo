@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+        function windowTocanvas(canvas, x, y) {
+            var bbox = canvas.getBoundingClientRect();
+            return {
+                x: x - bbox.left * (canvas.width / bbox.width),
+                y: y - bbox.top * (canvas.height / bbox.height)
+            };
+
+        }
+        window.onload=function(){
+            var canvas=document.getElementById("myCanvas");
+
+            canvas.onclick=function(event){
+
+                var loc=windowTocanvas(canvas,event.clientX,event.clientY)
+                var x=parseInt(loc.x);
+                var y=parseInt(loc.y);
+                document.getElementById("input_window").value=event.clientX+"--"+event.clientY;
+                document.getElementById("input_canvas").value=x+"--"+y;
+            }
+        }
+
+    </script>
+
+</head>
+<body>
+<div class="" align="center"style="position: absolute; z-index: 1; top: 100px; left: 100px;">
+    <canvas id="myCanvas" style="border: 1px solid #000000;" height="300px" width="600px">
+    </canvas>
+</div>
+<div class=""align="center"style="position: absolute; z-index: 1; top: 30px; left: 100px;">
+    点击获取窗口的X，Y值：<input type="text" id="input_window" value="" /> <br />
+    点击获取canvas的X，Y值：<input type="text" id="input_canvas" value="" />
+</div>
+
+</body>
+</html>
