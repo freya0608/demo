@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-status-bar-style" content="black"/>
+    <meta name=""/>
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="g-dialog-container">
+    <div class="dialog-window">
+        <div class="dialog-header loading" ></div>
+        <div class="dialog-content">你是否要清空购物车？</div>
+        <div class="dialog-footer">
+            <button class="green">确定</button>
+            <button class="red">取消</button>
+            <button >默认</button>
+        </div>
+    </div>
+</div>
+
+    <!--<button id="btn1">没有传递任何参数（需手动关闭）<button>-->
+    <!--<button id="btn2">弹出一个不带任何按钮。且是警告的框，并且2秒后自动关闭</button>-->
+    <!--<button id="btn3">没有传递任何参数（需手动关闭）</button>-->
+    <!--<button id="btn4">没有传递任何参数（需手动关闭）</button>-->
+    <!--<button id="btn5">没有传递任何参数（需手动关闭）</button>-->
+    <!--<button id="btn6">没有传递任何参数（需手动关闭）</button>-->
+
+
+<script src="js/zepto.js"></script>
+<script src="js/dialog.js"></script>
+<script>
+    var d =new Dialog({
+        width:100,
+        height:50,
+        type:"warning",
+        buttons:[
+            {
+                type:"red",
+                text:"不好",
+                callback:function () {
+
+                }
+            },
+            {
+                type:"green",
+                text:"好",
+                callback:function () {
+
+                }
+            }
+
+                ],
+        delay:300,
+        message:"你还好吗",
+        maskOpacity:0.5
+    });
+</script>
+</body>
+</html>

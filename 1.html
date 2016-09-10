@@ -1,33 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <title>scrollTop demo</title>
     <style>
-        .dot{
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background-color: #ffcb6d;
-            margin-top: -25px;
-            position: absolute;
-            border: 15px solid white;
-            margin-left: 33%;
-            margin-right: auto;
+        p {
+            margin: 10px;
+            padding: 5px;
+            border: 2px solid #666;
         }
-
     </style>
-    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-<div style="text-align: center">
 
-    <div style="border:1px solid red">
-           hahahha
-    </div>
+<p>Hello</p><p></p>
 
-    <span class="dot"></span>
-
-</div>
+<script>
+    var p = $( "p:first" );
+    $( "p:last" ).text( "scrollTop:" + p.scrollTop() );
+</script>
 
 </body>
 </html>
