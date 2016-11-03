@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .divcss{
+            width:400px;
+            border:1px solid #F00;
+            background:#FF0;
+            /*!*height: 150px;*! 方法1：设置父元素的高度*/
+            /*!*float: left;*! 方法2： 父元素浮动*/
+            /*overflow: hidden;  方法3:父元素设置overflow: hidden*/
+            /*!*position: absolute;*!  方法6：父元素绝对定位脱离文档流*/
+        }
+        .divcss-left,.divcss-right{
+            width:180px;
+            height:100px;
+            border:1px solid #00F;
+            background:#FFF}
+        .divcss-left{
+            float:left
+        }
+        .divcss-right{
+            float:right
+        }
+        /*.clerrfix{*/
+        /*!*clear: both; *!  方法4：在父元素内部，子元素后面设置清除浮动*/
+        /*}*/
+        /*.clearfix:after{*/
+        /*content: '';*/
+        /*display: block;*/
+        /*clear: both;*/
+        /*}*/
+        /*.clearfix{*/
+        /*!*zoom: 1;*!  兼容ie*/
+        /*!*}*!
+                        方法5：用after*/
+
+        /*.clearfix:after{*/
+        /*content: '';*/
+        /*display: block;*/
+        /*clear: both;*/
+        /*height: 0;*/
+        /*visibility: hidden;*/
+        /*}*/
+        /*新浪*/
+
+    </style>
+</head>
+<body>
+<div class="divcss clearfix">   <!--方法5：用after-->
+    <div class="divcss-left">left浮动</div>
+    <div class="divcss-right">right浮动</div>
+    <!--<div class="clerrfix"></div> --><!--方法4：在父元素内部，子元素后面设置清除浮动-->
+</div>
+</body>
+</html>
