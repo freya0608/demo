@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html,body{height:100%;margin:0;padding:0;}
+        .container{min-height:100%;}
+        header{background-color: #ffe4c4;}
+        main{padding-bottom:100px;background-color: #bdb76b;}/* main的padding-bottom值要等于或大于footer的height值 */
+        footer{height:100px;margin-top:-100px;background-color: #ffc0cb;}/* margin-top（负值的）高度等于footer的height值 */
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>header</header>
+    <main>main content</main>
+</div>
+<footer>footer</footer>
+</body>
+</html>
+<!--此方法把footer之前的元素放在一个容器里面，形成了container和footer并列的结构：-->
+<!--首先，设置.container的高度至少充满整个屏幕；-->
+<!--其次，设置main（.container最后一个子元素）的padding-bottom值大于等于footer的height值；-->
+<!--最后，设置footer的height值和margin-top负值。-->
+
+<!--这种方法没有使用绝对定位，但html结构的语义化不如方法一中的结构清晰。-->

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html,body{height:100%;margin:0;padding:0;}
+        .container{min-height:100%;margin-bottom:-100px;}
+        .empty,footer{height:100px;}
+        footer{
+            background-color: red;
+        }
+        main{
+            background-color: #00AA88;
+            /*height: 1000px;*/
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>header</header>
+    <main>main content</main>
+    <div class="empty"></div>
+</div>
+<footer>footer</footer>
+</body>
+</html>
+
+<!--使用一个空的div把footer容器推到页面最底部，
+同时给container设置一个负值的margin-bottom，这个margin-bottom与footer和.empty的高度相等。-->
+
+<!--虽然多了一个空的div，语义上也不怎么好，
+但是相比前面为main元素设置padding-bottom的方法有一个明显的好处：
+当网页内容不满一屏的时候，如果需要为main元素设置边框、
+背景色的时候，padding-bottom硬生生地撑出了一片空白，
+真真是有点丑，但是加个空的div之后，布局方式作用在.empty上，
+对main的css设置就不影响了，算是一个好处吧！-->
