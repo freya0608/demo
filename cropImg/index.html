@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<link href="bootstrap.min.css">
+</head>
+<body>
+
+<div style="
+    border:1px solid #f0f0f0;overflow: hidden;width:300px;height:300px;">
+    <img-crop image="myImage" result-image="newUserHead"
+              result-image-size="120"></img-crop>
+</div>
+<div class="col-md-6 col-xs-12 theme-bg-0 margin-top-neg-15">
+    <h3 class="sub-title theme-color-1">头像</h3>
+    <div class="pull-right user-head-lg">
+        <img class=" user-head-lg" ng-if="profile.user.head"  ng-src="{{profile.user.head}}">
+    </div>
+    <input class="" id="head" type="file" name="head" />
+    <div class="user-head-box">
+        <img-crop image="myImage" result-image="newUserHead" result-image-size="120"></img-crop>
+    </div>
+</div>
+
+</body>
+<script src="cropImg.js"></script>
+<script src="angular.min.js"></script>
+</html>

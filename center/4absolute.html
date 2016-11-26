@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .absolute-aligned{
+            position: relative;
+            min-height: 500px;
+            background: hsl(200,100%,97%);
+        }
+        .absolute-aligned img{
+            width: 50%;
+            min-width: 200px;
+            height: auto;
+            overflow: auto;
+            margin: auto;
+            position: absolute;
+            top:0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+<!--水平垂直居中-->
+<div class="absolute-aligned">
+    <img src="img.png">
+</div>
+</body>
+</html>
