@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- 建立了以包含块为基准的定位，完全脱离标准文档流。随即拥有偏移属性和z-index属性  -->
+
+    <!--未设置偏移量 无论是否存在已定位祖先元素，都保存在元素初始位置，脱离了标准文档流        -->
+    <!-- 设置偏移量：无已定位祖先元素，以html为偏移参照基准，有已定位祖先元素，以距其最近的已定位祖先元素为偏移参照基准   -->
+    <style>
+        .box1{
+            background: red;
+            height: 300px;
+        }
+        .box2{
+            background: green;
+            height: 100px;
+            position: absolute;
+            left: 50px;
+            top: 20px;
+        }
+        .box3{
+            background: blue;
+            height: 200px;
+        }
+        .box{
+            height: 60px;
+            background: #FC0;
+        }
+        /*无已定位祖先元素，以html为偏移参照基准*/
+    </style>
+</head>
+<body>
+<div class="box1"></div>
+<div class="box">
+    <div class="box2">box2</div>
+</div>
+<div class="box3"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
