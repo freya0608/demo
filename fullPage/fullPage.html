@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device,initial-scale=1, user-scalable=no"/>
+    <title>fullPage</title>
+    <link rel="stylesheet" href="lib/jquery.fullpage.css">
+    <style>
+        body{
+            color: #fff;
+        }
+        .section1{
+            background-color: green;
+        }
+        .section2{
+            background-color: orange;
+        }
+        .section3{
+            background-color: gray;
+        }
+        .section4{
+            background-color: red;
+        }
+        .slide{
+            text-align: center;
+            font-size: 30px;
+        }
+        #header{
+            position: fixed;
+            top:0;
+            right: 200px;
+        }
+    </style>
+</head>
+<body>
+<div id="header">header</div>
+<div id="fullPage">
+    <div class="section section1"><h1>这是第一屏</h1></div>
+    <div class="section section2">
+        <div class="slide">slide1</div>
+        <div class="slide">slide2</div>
+        <div class="slide">slide3</div>
+        <div class="slide">slide4</div>
+    </div>
+    <div class="section section3 active"><h1>这是第三屏</h1></div>
+    <div class="section section4"><h1>这是第四屏</h1></div>
+
+</div>
+<script src="lib/jquery.js"></script>
+<script src="lib/jquery.fullpage.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#fullPage').fullpage({
+            sectionsColor:['green','orange','gray','red'],
+//            controlArrows : false,
+//            verticalCentered:false,
+//            resize:true
+//            scrollingSpeed:2000
+              //anchors:['page1','page2','page3','page4',], //锚链接
+//            lockAnchors:true,
+//            css3:true,
+//            loopTop:true,
+//            loopBottom:true,
+//            loopHorizontal:false,//横向滚动
+            //antoSrolling:true,//是否按照插件滚动方式
+            //scrollBar:true //按照滚动条滚动
+            //paddingTop:'200px',
+            //paddingBottom:0
+           // fixedElements:'#header'
+//            keyboardScrolling:true,
+//            touchSensitivity:100,
+            continuousVertical:true,//循环滚动
+           // animateAnchor:false//锚点链接是否可以控制滚动动画
+
+
+        });
+
+    })
+</script>
+</body>
+
+</html>
