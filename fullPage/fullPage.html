@@ -30,10 +30,22 @@
             top:0;
             right: 200px;
         }
+        #fullpagemenu{
+            font-size: 30px;
+            position: fixed;
+            top:0;
+            z-index: 999;
+        }
     </style>
 </head>
 <body>
-<div id="header">header</div>
+<!--<div id="header">header</div>-->
+<ul id="fullpageMenu">
+    <li data-menuanchor="page1" class="active"><a href="#page1">1 section</a></li>
+    <li data-menuanchor="page2" ><a href="#page2">2 section</a></li>
+    <li data-menuanchor="page3" ><a href="#page3">3 section</a></li>
+    <li data-menuanchor="page4" ><a href="#page4">4 section</a></li>
+</ul>
 <div id="fullPage">
     <div class="section section1"><h1>这是第一屏</h1></div>
     <div class="section section2">
@@ -51,12 +63,12 @@
 <script>
     $(document).ready(function () {
         $('#fullPage').fullpage({
-            sectionsColor:['green','orange','gray','red'],
+            //sectionsColor:['green','orange','gray','red'],
 //            controlArrows : false,
 //            verticalCentered:false,
 //            resize:true
 //            scrollingSpeed:2000
-              //anchors:['page1','page2','page3','page4',], //锚链接
+              anchors:['page1','page2','page3','page4',], //锚链接
 //            lockAnchors:true,
 //            css3:true,
 //            loopTop:true,
@@ -69,8 +81,9 @@
            // fixedElements:'#header'
 //            keyboardScrolling:true,
 //            touchSensitivity:100,
-            continuousVertical:true,//循环滚动
+           // continuousVertical:true,//循环滚动
            // animateAnchor:false//锚点链接是否可以控制滚动动画
+            menu:'#fullpageMenu'
 
 
         });

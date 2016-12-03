@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device,initial-scale=1, user-scalable=no"/>
+    <title>fullPage</title>
+    <link rel="stylesheet" href="lib/jquery.fullpage.css">
+    <style>
+        body{
+            color: #fff;
+        }
+        /*.section1{*/
+            /*background-color: green;*/
+        /*}*/
+        /*.section2{*/
+            /*background-color: orange;*/
+        /*}*/
+        /*.section3{*/
+            /*background-color: gray;*/
+        /*}*/
+        /*.section4{*/
+            /*background-color: red;*/
+        /*}*/
+        .slide{
+            text-align: center;
+            font-size: 30px;
+        }
+        #header{
+            position: fixed;
+            top:0;
+            right: 200px;
+        }
+        /*#fullpageMenu{*/
+            /*font-size: 30px;*/
+            /*position: fixed;*/
+            /*top:0;*/
+            /*z-index: 999;*/
+        /*}*/
+    </style>
+</head>
+<body>
+<!--<div id="header">header</div>-->
+<!--<ul id="fullpageMenu">-->
+    <!--<li data-menuanchor="page1" class="active"><a href="#page1">1 section</a></li>-->
+    <!--<li data-menuanchor="page2" ><a href="#page2">2 section</a></li>-->
+    <!--<li data-menuanchor="page3" ><a href="#page3">3 section</a></li>-->
+    <!--<li data-menuanchor="page4" ><a href="#page4">4 section</a></li>-->
+<!--</ul>-->
+<div id="fullPage">
+    <div class="section "><h1>这是第一屏</h1></div>
+    <div class="section ">
+        <div class="slide">slide1</div>
+        <div class="slide">slide2</div>
+        <div class="slide">slide3</div>
+        <div class="slide">slide4</div>
+    </div>
+    <div class="section  active">
+        <h1>这是第三屏</h1>
+    </div>
+    <div class="section "><h1>这是第四屏</h1></div>
+
+</div>
+<script src="lib/jquery.js"></script>
+<script src="lib/jquery.fullpage.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#fullPage').fullpage({
+            sectionsColor:['green','orange','gray','red'],
+//            controlArrows : false,
+//            verticalCentered:false,
+//            resize:true
+//            scrollingSpeed:2000
+              anchors:['page1','page2','page3','page4',], //锚链接
+//            lockAnchors:true,
+//            css3:true,
+//            loopTop:true,
+//            loopBottom:true,
+//            loopHorizontal:false,//横向滚动
+            //antoSrolling:true,//是否按照插件滚动方式
+            //scrollBar:true //按照滚动条滚动
+            //paddingTop:'200px',
+            //paddingBottom:0
+           // fixedElements:'#header'
+//            keyboardScrolling:true,
+//            touchSensitivity:100,
+           // continuousVertical:true,//循环滚动
+           // animateAnchor:false//锚点链接是否可以控制滚动动画
+            //menu:'#fullpageMenu'
+//            navigation:true,
+//            navigationPosition:'right',
+//            navigationTooltips:['page1','page2','page3','page4'],
+//            showActiveTooltip:true,
+//            slidesNavigation:true,
+//            slidesNavPosition:'top',
+            //scrollOverflow:true  //内容超过满屏后是否显示滚动条
+            afterLoad:function (anchorLink,index) {
+                console.log('afterLoad:anchorLink='+anchorLink+';index='+index);
+            },
+            onLeave:function (index,nextIndex,direction) {
+                console.log('onLeave:index='+index+';nextIndex='+nextIndex+
+                        ';direction='+direction);
+            },
+            afterRender:function () {
+                console.log('afterRender');
+            },
+            afterResize:function () {
+                console.log('afterResize');
+            }
+
+        });
+
+    })
+</script>
+</body>
+
+</html>
