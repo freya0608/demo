@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57d8eeec-8eb0-4962-b69a-a587fb1b9a2b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithm/2.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithm/fac.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithm/isPalindrome.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithm/mulBase.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="form.iws" />
@@ -24,11 +26,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2.3.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2.3.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm/2.3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+            <state relative-caret-position="403">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mulBase.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/mulBase.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="isPalindrome.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithm/isPalindrome.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fac.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/fac.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -42,8 +74,8 @@
         <option value="Html5" />
         <option value="CSS File" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="AMD JavaScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -53,9 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dialog/index1.html" />
-        <option value="$PROJECT_DIR$/dialog/css/stye.css" />
-        <option value="$PROJECT_DIR$/dialog/css/style.css" />
         <option value="$PROJECT_DIR$/dialog/js/zepto1.js" />
         <option value="$PROJECT_DIR$/dialog/js/script.js" />
         <option value="$PROJECT_DIR$/dialog/index.html" />
@@ -104,6 +133,9 @@
         <option value="$PROJECT_DIR$/algorithm/2.1.js" />
         <option value="$PROJECT_DIR$/algorithm/2.2.js" />
         <option value="$PROJECT_DIR$/algorithm/2.3.js" />
+        <option value="$PROJECT_DIR$/algorithm/mulBase.js" />
+        <option value="$PROJECT_DIR$/algorithm/fac.js" />
+        <option value="$PROJECT_DIR$/algorithm/isPalindrome.js" />
       </list>
     </option>
   </component>
@@ -324,7 +356,7 @@
       <workItem from="1481018362227" duration="1959000" />
       <workItem from="1482667480514" duration="6070000" />
       <workItem from="1483110183351" duration="1160000" />
-      <workItem from="1483166141056" duration="4362000" />
+      <workItem from="1483166141056" duration="9202000" />
     </task>
     <task id="LOCAL-00001" summary="圆角导航条">
       <created>1472312747696</created>
@@ -438,11 +470,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483168938370</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="js算法">
+      <created>1483170705499</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1483170705499</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74740000" />
+    <option name="totallyTimeSpent" value="79580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-9" width="1864" height="1098" extended-state="6" />
@@ -506,27 +545,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tooltips/dist/tooltips.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7936">
-          <caret line="256" column="1" selection-start-line="256" selection-start-column="1" selection-end-line="256" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tooltips/test/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1457">
-          <caret line="47" column="80" selection-start-line="47" selection-start-column="80" selection-end-line="47" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cart/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interview/footer/jquery-3.0.0.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -875,8 +893,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/2.3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        <state relative-caret-position="403">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/mulBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/fac.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/isPalindrome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding />
         </state>
       </provider>
