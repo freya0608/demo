@@ -2,7 +2,7 @@
  * Created by Administrator on 2016/12/25.
  */
 function Checking(amount) {
-    this.blance = amount;
+    this.balance = amount;
     this.deposit = deposit;
     this.withdraw = withdraw;
     this.toString = toString;
@@ -14,7 +14,7 @@ function withdraw(amount){
     if (amount<=this.balance){
         this.balance -=amount;
     }
-    if(amount > this.blance){
+    if(amount > this.balance){
         print('insufficient funds');
     }
 }
