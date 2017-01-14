@@ -21,6 +21,7 @@ $(document).ready(function () {
                     move('.section3 p').set('margin-left','20%').end();
                     break;
                 case 4:
+                    //回调
                     move('.section4 img.primary').rotate(360).end(function(){
                         move('.section4 img.sport').rotate(360).end(function(){
                             move('.section4 img.edition').rotate(360).end(function(){
@@ -39,6 +40,7 @@ $(document).ready(function () {
         },
         onLeave: function(link, index){
             switch (index){
+                //还原还来的位置。
                 case 1:
                     move('.section1 h1').scale(1).end();
                     move('.section1 p').set('margin-top','800px').end();
