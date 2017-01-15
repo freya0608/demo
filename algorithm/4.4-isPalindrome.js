@@ -1,6 +1,9 @@
 /**
  * Created by Administrator on 2016/12/31.
  */
+
+//peek()返回头元素，但是不删除。+
+
 function Stack() {
     this.dataStore = [];
     this.top = 0;
