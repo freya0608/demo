@@ -1,10 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57d8eeec-8eb0-4962-b69a-a587fb1b9a2b" name="Default" comment="algorithm">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/address.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/cart.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/package.json" />
+    <list default="true" id="57d8eeec-8eb0-4962-b69a-a587fb1b9a2b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/cart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/dist/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/dist/vue.common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/dist/vue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/dist/vue.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/dist/vue.runtime.common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/dist/vue.runtime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/dist/vue.runtime.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/compiler/codegen/events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/compiler/codegen/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/compiler/directives/bind.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/compiler/directives/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/compiler/error-detector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/compiler/helpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/compiler/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/compiler/optimizer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/compiler/parser/entity-decoder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/compiler/parser/filter-parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/compiler/parser/html-parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/compiler/parser/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/compiler/parser/text-parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/components/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/components/keep-alive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/global-api/assets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/global-api/extend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/global-api/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/global-api/mixin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/global-api/use.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/instance/events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/instance/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/instance/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/instance/lifecycle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/instance/proxy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/instance/render.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/instance/state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/observer/array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/observer/dep.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/observer/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/observer/scheduler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/observer/watcher.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/util/debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/util/env.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/util/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/util/lang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/util/options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/util/props.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/vdom/create-component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/vdom/create-element.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/vdom/helpers/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/vdom/helpers/merge-hook.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/vdom/helpers/normalize-children.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/vdom/helpers/update-listeners.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/vdom/modules/directives.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/vdom/modules/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/vdom/modules/ref.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/vdom/patch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/core/vdom/vnode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/entries/web-compiler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/entries/web-runtime-with-compiler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/entries/web-runtime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/entries/web-server-renderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/entries/weex-compiler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/entries/weex-framework.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/compiler/directives/html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/compiler/directives/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/compiler/directives/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/compiler/directives/text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/compiler/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/compiler/modules/class.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/compiler/modules/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/compiler/modules/style.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/compiler/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/runtime/class-util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/runtime/components/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/runtime/components/transition-group.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/runtime/components/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/runtime/directives/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/runtime/directives/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/runtime/directives/show.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/runtime/modules/attrs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/runtime/modules/class.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/runtime/modules/dom-props.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/runtime/modules/events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/runtime/modules/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/runtime/modules/style.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/runtime/modules/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/runtime/node-ops.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/runtime/patch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/runtime/transition-util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/server/directives/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/server/directives/show.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/server/modules/attrs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/server/modules/class.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/server/modules/dom-props.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/server/modules/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/server/modules/style.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/server/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/util/attrs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/util/class.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/util/compat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/util/element.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/util/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/web/util/style.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/weex/compiler/directives/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/weex/compiler/directives/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/weex/compiler/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/weex/compiler/modules/append.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/weex/compiler/modules/class.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/weex/compiler/modules/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/weex/compiler/modules/style.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/weex/framework.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/weex/runtime/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/weex/runtime/directives/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/weex/runtime/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/weex/runtime/modules/attrs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/weex/runtime/modules/class.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/weex/runtime/modules/events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/weex/runtime/modules/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/weex/runtime/modules/style.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/weex/runtime/node-ops.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/weex/runtime/patch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/platforms/weex/util/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/server/create-bundle-renderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/server/create-renderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/server/render-stream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/server/render.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/server/run-in-vm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/server/write.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/sfc/parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/src/shared/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/types/index.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/types/options.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/types/plugin.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/types/vnode.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart-vue/node_modules/vue/types/vue.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/bootstrap/ui-bootstrap-csp.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/bootstrap/ui-bootstrap-tpls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/bootstrap/ui-bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/fullpage/jquery.fullpage.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/fullpage/jquery.fullpage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jQuery/jquery1-2-6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jQuery/jquery2-1-1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/vue/vue.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="form.iws" />
@@ -26,82 +171,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="4.3-mulBase.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/4.3-mulBase.js">
+      <file leaf-file-name="jquery1-2-6.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/jQuery/jquery1-2-6.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="837">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            <state relative-caret-position="279">
+              <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4.4-isPalindrome.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/4.4-isPalindrome.js">
+      <file leaf-file-name="jquery2-1-1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/jQuery/jquery2-1-1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Queue.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/Queue.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5.4-distribute.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/5.4-distribute.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="address.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cart-vue/address.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cart.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cart-vue/cart.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cart-vue/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3.2.3.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/3.2.3.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="-20770">
+              <caret line="179" column="18" selection-start-line="179" selection-start-column="18" selection-end-line="179" selection-end-column="18" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,8 +201,8 @@
         <option value="Html5" />
         <option value="AMD JavaScript File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -125,9 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/interview/footer/footer-3.html" />
-        <option value="$PROJECT_DIR$/interview/footer/footer-1.html" />
-        <option value="$PROJECT_DIR$/interview/footer/footer-2.html" />
         <option value="$PROJECT_DIR$/interview/footer/footer-4.html" />
         <option value="$PROJECT_DIR$/cropImg/cropImg.js" />
         <option value="$PROJECT_DIR$/cropImg/index.html" />
@@ -176,6 +260,9 @@
         <option value="$PROJECT_DIR$/cart-vue/address.html" />
         <option value="$PROJECT_DIR$/cart-vue/cart.html" />
         <option value="$PROJECT_DIR$/cart-vue/package.json" />
+        <option value="$PROJECT_DIR$/cart-vue/cart.js" />
+        <option value="$PROJECT_DIR$/fullPage/lib/jquery2-1-1.js" />
+        <option value="$PROJECT_DIR$/lib/jQuery/jquery1-2-6.js" />
       </list>
     </option>
   </component>
@@ -185,8 +272,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="105" />
-    <option name="y" value="156" />
+    <option name="x" value="100" />
+    <option name="y" value="17" />
     <option name="width" value="1748" />
     <option name="height" value="1080" />
   </component>
@@ -235,6 +322,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -263,13 +351,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cart-vue" />
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,19 +387,19 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\web\demo\fullPage\demo" />
-      <recent name="F:\web\demo\fullPage" />
-      <recent name="F:\web\demo\interview\clearfix" />
-      <recent name="F:\web\demo\interview\footer" />
-      <recent name="R:\web\form\form" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\web\demo\fullPage\demo\img" />
+      <recent name="F:\web\demo\lib\bootstrap" />
+      <recent name="F:\web\demo\lib" />
       <recent name="F:\web\demo\fullPage\lib" />
+      <recent name="F:\web\demo\fullPage\demo\img" />
       <recent name="F:\web\demo\fullPage\fullPageJS" />
-      <recent name="F:\web\demo\fullPage" />
-      <recent name="F:\web\demo\center" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\web\demo\lib\vue" />
+      <recent name="F:\web\demo\lib\jQuery" />
+      <recent name="F:\web\demo\lib\fullpage" />
+      <recent name="F:\web\demo\lib" />
+      <recent name="F:\web\demo\fullPage\demo" />
     </key>
   </component>
   <component name="RunManager">
@@ -402,7 +507,8 @@
       <workItem from="1484484693447" duration="5318000" />
       <workItem from="1484491981106" duration="856000" />
       <workItem from="1484573515763" duration="1596000" />
-      <workItem from="1486201475033" duration="418000" />
+      <workItem from="1486201475033" duration="806000" />
+      <workItem from="1486613792760" duration="3251000" />
     </task>
     <task id="LOCAL-00001" summary="圆角导航条">
       <created>1472312747696</created>
@@ -572,20 +678,27 @@
       <option name="project" value="LOCAL" />
       <updated>1484496468389</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="cart-vue">
+      <created>1486201911160</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1486201911160</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96646000" />
+    <option name="totallyTimeSpent" value="100285000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="105" y="156" width="1748" height="1080" extended-state="0" />
-    <editor active="false" />
+    <frame x="100" y="17" width="1748" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19095182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16803761" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296433" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.029246343" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.029279279" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07764706" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -627,7 +740,8 @@
     <MESSAGE value="js算法" />
     <MESSAGE value="fullPage-demo" />
     <MESSAGE value="algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="algorithm" />
+    <MESSAGE value="cart-vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="cart-vue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -642,153 +756,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/center/2block.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/center/3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/center/4absolute.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/center/6-flexbox.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/center/7-calc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/center/5-transform.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/clearfix/clearfix.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/clearfix/2-clearfix.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/position/relative.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/position/1-absolute.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nav/index-annimate-js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nav/index-height.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slide/slide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fullPage/lib/jquery.fullpage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fullPage/fullPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slice-box/js/jquery.slicebox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22909">
-          <caret line="748" column="10" selection-start-line="748" selection-start-column="10" selection-end-line="748" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slice-box/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slice-box/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4743">
-          <caret line="153" column="48" selection-start-line="153" selection-start-column="48" selection-end-line="153" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slice-box/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slice-box/css/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/slice-box/css/slicebox.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2139">
@@ -797,13 +764,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/slice-box/js/modernizr.custom.46884.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fullPage/lib/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -977,7 +937,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/5.4-distribute.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
+        <state relative-caret-position="372">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding />
         </state>
@@ -1001,8 +961,201 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cart-vue/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="310">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart-vue/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/position/1-absolute.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview/clearfix/clearfix.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview/clearfix/2-clearfix.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/center/1text-align.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/center/2block.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/center/3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="21" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/center/4absolute.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/center/5-transform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/center/6-flexbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/center/7-calc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fullPage/lib/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-871">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <marker date="1467175850421" expanded="true" signature="26501:26506" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fullPage/lib/jquery2-1-1-1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="9176" column="0" selection-start-line="9176" selection-start-column="0" selection-end-line="9176" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Documents/Downloads/jquery-1.2.6/jquery-1.2.6/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart-vue/node_modules/vue/dist/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264964">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1486202015725" expanded="true" signature="212794:212803" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/fullpage/jquery.fullpage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/vue/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3602">
+          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1486202015725" expanded="true" signature="212794:212803" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bootstrap/ui-bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213783">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1467807348252" expanded="true" signature="153808:154225" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bootstrap/ui-bootstrap-csp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1488">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bootstrap/ui-bootstrap-tpls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1953">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1467807348238" expanded="true" signature="155006:155423" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jQuery/jquery2-1-1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20770">
+          <caret line="179" column="18" selection-start-line="179" selection-start-column="18" selection-end-line="179" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jQuery/jquery1-2-6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
           <folding />
         </state>
       </provider>
