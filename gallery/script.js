@@ -12,7 +12,14 @@ function turn(elem) {
     return elem.className = cls;
 
 }
-function g() {
-
-    
+//3.通用函数
+function g(selector) {
+    var method = selector.substr(0,1) == '.'?'getElementByClassName':'getElementById';
+    return document[method](selector.substr(1));
 }
+//4.输出所有的海报
+var data = data;
+function addPhotos() {
+    var template = g('#wrap').innerHTML;
+}
+addPhotos();
