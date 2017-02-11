@@ -113,11 +113,20 @@ body{
     /*-moz-transform: rotateY(180deg);*/
 /*}*/
 /*控制按钮的样式*/
+/*@font-face {*/
+    /*font-family: 'icons';*/
+    /*src:url('icons.woff') format('woff');*/
+    /*font-weight: normal;*/
+
+/*}*/
+
 @font-face {
     font-family: 'icons';
-    src:url('icons.woff') format('woff');
-    font-weight: normal;
-
+    src: url('fonts/icons/turn-arrow.eot');
+    src: url('fonts/icons/turn-arrow.eot?#iefix') format('embedded-opentype'),
+    url('fonts/icons/turn-arrow.woff') format('woff'),
+    url('fonts/icons/turn-arrow.ttf') format('truetype'),
+    url('fonts/icons/turn-arrow.svg#icons') format('svg');
 }
 .nav{
     width:80%;

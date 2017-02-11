@@ -2,51 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57d8eeec-8eb0-4962-b69a-a587fb1b9a2b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/fonts/icons/turn-arrow.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/fonts/icons/turn-arrow.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/fonts/icons/turn-arrow.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/images/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/images/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/images/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/images/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/images/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/images/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/images/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/images/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/images/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/images/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/images/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/images/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/images/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/images/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/images/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/images/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/img/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/img/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/img/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/img/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/img/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/img/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/img/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/img/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/img/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/img/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/img/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/img/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/data/data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/fonts/icons/turn-arrow.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/js/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery-2/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/fonts/icons/turn-arrow.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/fonts/icons/turn-arrow.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/fonts/icons/turn-arrow.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/fonts/icons/turn-arrow.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery/data.js" afterPath="$PROJECT_DIR$/gallery/data.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery/index.html" afterPath="$PROJECT_DIR$/gallery/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery/script.js" afterPath="$PROJECT_DIR$/gallery/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery/style.css" afterPath="$PROJECT_DIR$/gallery/style.css" />
     </list>
     <ignored path="form.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,28 +32,48 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gallery/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="196">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gallery-2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="93">
               <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gallery/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="128" column="9" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gallery-2/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gallery/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="111" column="24" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
+            <state relative-caret-position="-167">
+              <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -100,7 +82,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gallery-2/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1457">
+            <state relative-caret-position="-3484">
               <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding />
             </state>
@@ -110,8 +92,8 @@
       <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gallery/data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="155">
+              <caret line="5" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -194,11 +176,11 @@
         <option value="$PROJECT_DIR$/cart-vue/cart.js" />
         <option value="$PROJECT_DIR$/fullPage/lib/jquery2-1-1.js" />
         <option value="$PROJECT_DIR$/lib/jQuery/jquery1-2-6.js" />
-        <option value="$PROJECT_DIR$/gallery/style.css" />
         <option value="$PROJECT_DIR$/gallery-2/js/main.js" />
         <option value="$PROJECT_DIR$/gallery/data.js" />
-        <option value="$PROJECT_DIR$/gallery/index.html" />
+        <option value="$PROJECT_DIR$/gallery/style.css" />
         <option value="$PROJECT_DIR$/gallery/script.js" />
+        <option value="$PROJECT_DIR$/gallery/index.html" />
       </list>
     </option>
   </component>
@@ -208,8 +190,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="62" />
-    <option name="y" value="35" />
+    <option name="x" value="101" />
+    <option name="y" value="70" />
     <option name="width" value="1748" />
     <option name="height" value="1080" />
   </component>
@@ -336,7 +318,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="gallery-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gallery-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="gallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icons" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,11 +400,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\web\demo\gallery" />
       <recent name="F:\web\demo\gallery-2" />
       <recent name="F:\web\demo\gallery-2\js" />
       <recent name="F:\web\demo\gallery-2\images" />
       <recent name="F:\web\demo\gallery-2\fonts" />
-      <recent name="F:\web\demo\gallery-2\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\web\demo\lib\vue" />
@@ -478,7 +522,7 @@
       <workItem from="1486201475033" duration="806000" />
       <workItem from="1486613792760" duration="6098000" />
       <workItem from="1486714595944" duration="19454000" />
-      <workItem from="1486790173192" duration="3458000" />
+      <workItem from="1486790173192" duration="4810000" />
     </task>
     <task id="LOCAL-00001" summary="圆角导航条">
       <created>1472312747696</created>
@@ -683,17 +727,24 @@
       <option name="project" value="LOCAL" />
       <updated>1486745363048</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="gallery">
+      <created>1486793651599</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1486793651599</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126044000" />
+    <option name="totallyTimeSpent" value="127396000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="62" y="35" width="1748" height="1080" extended-state="0" />
+    <frame x="101" y="70" width="1748" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14747356" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23207991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296433" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.029279279" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1044,22 +1095,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gallery/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4278">
-          <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gallery-2/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gallery-2/data/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1076,44 +1111,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gallery/data.js">
+    <entry file="file://$PROJECT_DIR$/gallery-2/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gallery/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gallery-2/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1457">
+        <state relative-caret-position="-3484">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gallery/script.js">
+    <entry file="file://$PROJECT_DIR$/gallery/data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="111" column="24" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
+        <state relative-caret-position="155">
+          <caret line="5" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="128" column="9" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gallery-2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="93">
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167">
+          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding />
         </state>
       </provider>
