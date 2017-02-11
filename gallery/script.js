@@ -1,5 +1,5 @@
 /**
- * Created by Administrator on 2017/2/10.
+ * Created by freya on 2017/2/10.
  */
 //1.翻面控制
 function turn(elem) {
@@ -22,9 +22,16 @@ function turn(elem) {
 }
 //3.通用函数
 function g(selector) {
-    var method = selector.substr(0,1) == '.'?'getElementByClassName':'getElementById';
+    var method = selector.substr(0,1) == '.'?'getElementsByClassName':'getElementById';
     return document[method](selector.substr(1));
 }
+
+// function g( string ) {
+//     return (string.substring(0,1) == ".") ?
+//         document.getElementsByClassName(string.substring(1)) :
+//         document.getElementById(string.substring(1));
+// }
+
 //4.输出所有的海报
 var data = data;
 function addPhotos() {
@@ -34,8 +41,8 @@ function addPhotos() {
     for(s in data){
         var _html = template
             .replace('{{index}}',s)
-            .replace('{{img}}',data[s].img)
-            .replace('{{caption}}',data[s].caption)
+            .replace('{{img}}',data[s].fileName)
+            .replace('{{caption}}',data[s].title)
             .replace('{{desc}}',data[s].desc);
         html.push(_html);
         
@@ -44,7 +51,7 @@ function addPhotos() {
     html.push('<div class="nav">'+nav.join('')+'</div>')
     
     g('#wrap').innerHTML = html.join('');
-    rsort(random([0,data.length]));
+    rsort(random([0,html.length]));
 }
 addPhotos();
 //    计算左右分区的范围{left  right}
@@ -81,7 +88,7 @@ function range() {
 //    5.排序海报
 function rsort(n) {
     var _photo = g('.photo');
-    var photo = [];
+    var photos = [];
     for(var s = 0;s<_photo.length;s++){
         _photo[s].className = _photo[s].className.replace(/\s*photo_center\s*/,' ');
         _photo[s].className = _photo[s].className.replace(/\s*photo_front\s*/,' ');
@@ -92,11 +99,14 @@ function rsort(n) {
         _photo[s].style['transform'] = 'rotateY(360deg) scale(1.3)'
 
 
-        photos.push(_photo[s]);
+        photos.push( _photo[s] );
     }
     var photo_center = g('#photo_'+n);
     photo_center.className += ' photo_center';
+
     photo_center = photos.splice(n,1)[0];
+
+
 //        把海报分成左右两个部分
     var photos_left = photos.splice(0,Math.ceil(photos.length/2));
     var photos_right = photos;

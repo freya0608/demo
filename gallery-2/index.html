@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3图片画廊</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<div class="container">
+  <div class="btn-type">
+    <button onclick="changeType('random')">散列画廊</button>
+    <button onclick="changeType('circle')">环形画廊</button>
+  </div>
+  <div class="wrap">
+    <!--photo start-->
+    <div class="photo-stack" id="photo_{{index}}" onclick="turnPhoto({{index}})">
+      <div class="photo-stack-container">
+        <div class="photo-stack-img">
+          <img src="./images/{{src}}">
+        </div>
+        <div class="photo-stack-content">
+          <div class="photo-stack-title">
+            <h2>{{title}}</h2>
+          </div>
+          <div class="photo-stack-desc">
+            <p>{{desc}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--photo end-->
+  </div>
+  <div class="nav">
+    <!--<span class="nav-control current-control current-control-back"></span>-->
+  </div>
+</div>
+
+
+</body>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</html>
