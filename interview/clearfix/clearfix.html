@@ -9,7 +9,7 @@
             border:1px solid #F00;
             background:#FF0;
             /*!*height: 150px;*! 方法1：设置父元素的高度*/
-            /*!*float: left;*! 方法2： 父元素浮动*/
+            /*!*float: left;*! 方法2： 父元素浮动*   不推荐，万一父元素的父元素也浮动/
             /*overflow: hidden;  方法3:父元素设置overflow: hidden 或者auto*/
             /*!*position: absolute;*!  方法6：父元素绝对定位脱离文档流*/
         }
@@ -31,9 +31,10 @@
         /*content: '';*/
         /*display: block;*/
         /*clear: both;*/
+         
         /*}*/
         /*.clearfix{*/
-        /*!*zoom: 1;*!  兼容ie*/
+        /*!*zoom: 1;*!  兼容ie6,7*/
         /*!*}*!
                         方法5：用after*/
 
@@ -45,7 +46,32 @@
         /*visibility: hidden;*/
         /*}*/
         /*新浪*/
+        
+        
+/*         方法6：用after*/ */
 
+        /*.clearfix:after{*/
+        /*content: '';*/
+        /*display: table;*/
+        /*clear: both;*/
+        /*}*/
+       
+        /*         方法7：用after 避免margin重叠*/ 
+
+        /*.clearfix:after,
+        .clearfix:before
+        {*/
+        /*content: '';*/
+        /*display: table;*/
+       
+        /*}*/
+/*         .clearfix:after{
+             /*clear: both;*/
+/*         }  */
+     
+        
+        
+/*         只要触发了BFC就可以清除浮动：float,overflow,display:table-cell/caption,inline-block ,position:fixed/absolute*/
     </style>
 </head>
 <body>
