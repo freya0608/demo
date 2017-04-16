@@ -47,7 +47,7 @@ console.log(new Date(),i)
 
 for(let i=0;i<5;i++){
     setTimeout(function () {
-        console.log(new Date(),i);//5,5,5,5,5
+        console.log(new Date(),i);
     },1000);
 }
 console.log(new Date(),i);
