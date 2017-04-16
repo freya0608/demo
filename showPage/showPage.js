@@ -1,24 +1,24 @@
 /**
  * Created by freya on 2017/4/16.
  */
-function showPages(page, total) {
-    var str = page+'';
-    for(var i=1;i<4;i++){
-        if(page-i>1){
-            str = page-i+''+str;
-        }
-        if(page+i<total){
-            str = str+''+(page+i);
-        }
-    }
-    if(page-4>1){
-        str = '...'+str;
-    }
-    if(page<total){
-        str = str+''+total+'下一页';
-    }
-    return str;
-}
+// function showPages(page, total) {
+//     var str = page+'';
+//     for(var i=1;i<4;i++){
+//         if(page-i>1){
+//             str = page-i+''+str;
+//         }
+//         if(page+i<total){
+//             str = str+''+(page+i);
+//         }
+//     }
+//     if(page-4>1){
+//         str = '...'+str;
+//     }
+//     if(page<total){
+//         str = str+''+total+'下一页';
+//     }
+//     return str;
+// }
 
 
 
