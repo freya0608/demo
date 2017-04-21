@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57d8eeec-8eb0-4962-b69a-a587fb1b9a2b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interview/some.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interview/some.js" afterPath="$PROJECT_DIR$/interview/some.js" />
     </list>
     <ignored path="form.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,8 +49,8 @@
       <file leaf-file-name="some.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/interview/some.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2759">
-              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+            <state relative-caret-position="496">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -346,7 +346,7 @@
       <workItem from="1486901285225" duration="6093000" />
       <workItem from="1492324964678" duration="3518000" />
       <workItem from="1492329593993" duration="6240000" />
-      <workItem from="1492773690339" duration="10247000" />
+      <workItem from="1492773690339" duration="12290000" />
     </task>
     <task id="LOCAL-00001" summary="圆角导航条">
       <created>1472312747696</created>
@@ -600,11 +600,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492348071179</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="mainJS">
+      <created>1492795737608</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1492795737608</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154191000" />
+    <option name="totallyTimeSpent" value="156234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="77" y="0" width="1748" height="993" extended-state="0" />
@@ -613,7 +620,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2215041" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296433" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10723192" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.107365794" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07764706" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -661,7 +668,8 @@
     <MESSAGE value="interview&#10;" />
     <MESSAGE value="pages" />
     <MESSAGE value="timeout" />
-    <option name="LAST_COMMIT_MESSAGE" value="timeout" />
+    <MESSAGE value="mainJS" />
+    <option name="LAST_COMMIT_MESSAGE" value="mainJS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1026,8 +1034,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/interview/some.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2759">
-          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+        <state relative-caret-position="496">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>

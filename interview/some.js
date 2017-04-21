@@ -7,6 +7,7 @@ function convert(s) {
     console.log(s);//hi
     s +=s.toUpperCase();
     console.log(s);//hiHI
+    return s
 }
 function funny(s) {
     convert(s);
@@ -20,6 +21,12 @@ funny('hi');
 var a = [1,2,3,4,5];
 a=a.map((i)=>i+1).filter((i)=>i%2);
 console.log(a);//[3, 5]
+
+
+var a = [1,2,3,4,5];
+a=a.map((i)=>i+1);
+console.log(a);
+//[2, 3, 4, 5, 6]
 
 
 
