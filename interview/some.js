@@ -160,5 +160,5 @@ for(var i=0;i<10;i++){
     })
 }
 for(var i = 0;i<10;i++) sum += fs[i]();;
-console.log(sum);
+console.log(sum);//45
 
